@@ -1,7 +1,7 @@
 %% STEPPER ENGINE PARAMETERS
 
 st_winding_resistance = 1;  % Ohm
-st_winding_inductance = 1.5e-3;  % H
+st_winding_inductance = 1.2e-3;  % H
 st_motor_torque_constant = 0.19 * 10; % N*m/A
 st_detent_torque = 0; % N*m
 st_magnetizing_resistance = Inf; % Ohm
@@ -32,6 +32,6 @@ st_rack_mass = 0.1; % kg
 
 st_source_voltage_amplitude = 24; % V
 
-st_p_rate = 50;
+st_p_rate = 70;
 
 position_to_steps = st_gear_ratio*(360)/(st_full_step_size*st_pinion_radius*2*pi); % position in m
