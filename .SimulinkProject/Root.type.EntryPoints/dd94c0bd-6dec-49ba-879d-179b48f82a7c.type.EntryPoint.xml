@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Info Type="StartUp" Visible="0" Icon="" File="scripts/pneumatics_config.m" Name="pneumatics_config">
+    <Extension Value="f6e448db-b6d8-4f06-a1d4-62580cf721ba" Name="StartUpPrev" />
+</Info>

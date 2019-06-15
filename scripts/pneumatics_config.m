@@ -1,0 +1,16 @@
+x_init = 0;
+x_max = 0.4;
+stiff_hard_stop = 1e7;
+damp_hard_stop = 1500;
+M_piston = 1;
+damp_mech = 200;
+A_piston = 0.002;
+A_port = 5e-6;
+A_pipe = A_port;
+T_atm = 293.15;
+L_piston = x_max;
+p_init = 0.1013;
+T_init = T_atm;
+A_valve_max = 4e-6;
+A_valve_min = 1e-10;
+delta_p = 0.6;
