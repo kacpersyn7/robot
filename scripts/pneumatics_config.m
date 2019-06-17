@@ -1,7 +1,9 @@
 x_init = 0;
-x_max = 0.2;
+x_max = 0.15;
 x_init_gripper = 0;
-x_max_gripper = (third_arm_width - box_size_with_wall)/2;
+x_max_gripper = (third_arm_width - box_size_with_wall - jaw_width)/200;
+L_piston_gripper = x_max_gripper;
+M_piston_gripper = 0.1;
 stiff_hard_stop = 1e7;
 damp_hard_stop = 1500;
 M_piston = 1;

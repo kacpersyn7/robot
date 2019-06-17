@@ -16,23 +16,3 @@ end
 for i=2:n_cols
     list_of_coordinates_y(i) = list_of_coordinates_y(i-1) +  border_width_col+box_size_a/2;
 end
-
-base_rail_lenth = total_x*100; % cm
-base_rail_height = 5; % cm
-base_rail_width = 5; % cm
-
-first_arm_length = 5; % cm
-first_arm_height = 50; % cm
-first_arm_width = 7; % cm
-
-second_arm_length = 50; % cm
-second_arm_height = 5; % cm
-second_arm_width = 7; % cm
-
-third_arm_length = 5; % cm
-third_arm_height = total_x*100 + 20; % cm
-third_arm_width = 7; % cm
-
-jaw_height = 5; % cm
-jaw_lenght = 5; % cm
-jaw_width = 2; % cm
