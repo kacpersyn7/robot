@@ -23,12 +23,16 @@ base_rail_width = 5; % cm
 
 first_arm_length = 5; % cm
 first_arm_height = 50; % cm
-first_arm_width = 5; % cm
+first_arm_width = 7; % cm
 
 second_arm_length = 50; % cm
 second_arm_height = 5; % cm
-second_arm_width = 5; % cm
+second_arm_width = 7; % cm
 
 third_arm_length = 5; % cm
 third_arm_height = total_x*100 + 20; % cm
-third_arm_width = 5; % cm
+third_arm_width = 7; % cm
+
+jaw_height = 5; % cm
+jaw_lenght = 5; % cm
+jaw_width = 2; % cm
