@@ -1,13 +1,13 @@
 %% STEPPER ENGINE PARAMETERS
 
-st_winding_resistance = 1;  % Ohm
-st_winding_inductance = 1.2e-3;  % H
-st_motor_torque_constant = 0.19 * 10; % N*m/A
+st_winding_resistance = 4;  % Ohm
+st_winding_inductance = 0.9e-4;  % H
+st_motor_torque_constant = 0.19 * 20; % N*m/A
 st_detent_torque = 0; % N*m
 st_magnetizing_resistance = Inf; % Ohm
 st_full_step_size = 1.8; % deg
-st_rotor_intertia = 2.7e-3;  % kg*m^2
-st_damping_factor = 0.0000009547;  % Nm/rad/s
+st_rotor_intertia = 5.7e-3;  % kg*m^2
+st_damping_factor = 0.0000009547*100;  % Nm/rad/s
 
 st_breakaway_friction_torque = 0.014;   % Nm
 st_breakaway_friction_velocity = 0.01; % rad/s
